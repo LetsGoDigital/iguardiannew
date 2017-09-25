@@ -825,9 +825,9 @@
                 <div class="col-md-4 col-sm-4 wow slideInLeft">
                     <div class="pricing-list">
                         <div class="pricing-header">
-                            <h3>Standard Price</h3>
+                            <h3>Starter</h3>
                             <div class="pricing-money">
-                                <b>$5</b>
+                                <b>£149</b>
                                 <span>per month</span>
                             </div>
                         </div>
@@ -842,7 +842,7 @@
                             </ul>
                         </div>
                         <div class="pricing-footer">
-                            <a href="#" class="btn btn-success">Let's Go</a>
+                            <a href="#" class="btn btn-success">Trial It</a>
                         </div>
                     </div>
                 </div>
@@ -852,9 +852,9 @@
                             <div class="ribbon">Popular</div>
                         </div>
                         <div class="pricing-header">
-                            <h3>Professional Price</h3>
+                            <h3>Development</h3>
                             <div class="pricing-money">
-                                <b>$25</b>
+                                <b>£229</b>
                                 <span>per month</span>
                             </div>
                         </div>
@@ -869,16 +869,16 @@
                             </ul>
                         </div>
                         <div class="pricing-footer">
-                            <a href="#" class="btn btn-success">Go for Pro!</a>
+                            <a href="#" class="btn btn-success">Trial It</a>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-4 col-sm-4 wow slideInRight">
                     <div class="pricing-list">
                         <div class="pricing-header">
-                            <h3>Corporate Price</h3>
+                            <h3>Advanced</h3>
                             <div class="pricing-money">
-                                <b>$100</b>
+                                <b>£299</b>
                                 <span>per month</span>
                             </div>
                         </div>
@@ -893,7 +893,7 @@
                             </ul>
                         </div>
                         <div class="pricing-footer">
-                            <a href="#" class="btn btn-success">Get Started</a>
+                            <a href="#" class="btn btn-success">Trial It</a>
                         </div>
                     </div>
                 </div>
