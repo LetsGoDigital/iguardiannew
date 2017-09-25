@@ -8,7 +8,7 @@
     <!--/ Brand -->
 
     <!-- Login form -->
-    <form class="sign-in form-horizontal shadow rounded no-overflow" action="<?php echo site_url($this->config->item('link_url').'/dashboard'); ?>" method="post">
+        <?php echo form_open('user/login',array('class' => 'sign-in form-horizontal shadow rounded no-overflow')); ?>
         <div class="sign-header">
             <div class="form-group">
                 <div class="sign-text">
@@ -19,13 +19,13 @@
         <div class="sign-body">
             <div class="form-group">
                 <div class="input-group input-group-lg rounded no-overflow">
-                    <input type="text" class="form-control input-sm" placeholder="Username or email " name="username">
+                    <input type="text" class="form-control input-sm" placeholder="Email " id="email" name="email">
                     <span class="input-group-addon"><i class="fa fa-user"></i></span>
                 </div>
             </div><!-- /.form-group -->
             <div class="form-group">
                 <div class="input-group input-group-lg rounded no-overflow">
-                    <input type="password" class="form-control input-sm" placeholder="Password" name="password">
+                    <input type="password" class="form-control input-sm" placeholder="Password" id="password" name="password">
                     <span class="input-group-addon"><i class="fa fa-lock"></i></span>
                 </div>
             </div><!-- /.form-group -->
@@ -40,7 +40,7 @@
                         </div>
                     </div>
                     <div class="col-xs-6 text-right">
-                        <a href="<?php echo site_url($this->config->item('link_url').'/pages/lost-password'); ?>" title="lost password">Lost password?</a>
+                        <a href="<?php echo base_url('user/forgot'); ?>" title="lost password">Lost password?</a>
                     </div>
                 </div>
             </div><!-- /.form-group -->
@@ -48,11 +48,11 @@
                 <button type="submit" class="btn btn-theme btn-lg btn-block no-margin rounded" id="login-btn">Sign In</button>
             </div><!-- /.form-group -->
         </div><!-- /.sign-footer -->
-    </form><!-- /.form-horizontal -->
+    <?php echo form_close(); ?><!-- /.form-horizontal -->
     <!--/ Login form -->
 
     <!-- Content text -->
-    <p class="text-muted text-center sign-link">Need an account? <a href="<?php echo site_url($this->config->item('link_url').'/pages/sign-up'); ?>"> Sign up free</a></p>
+    <p class="text-muted text-center sign-link">Need an account? <a href="<?php echo base_url('user/signup'); ?>"> Sign up free</a></p>
     <!--/ Content text -->
 
 </div><!-- /#sign-wrapper -->

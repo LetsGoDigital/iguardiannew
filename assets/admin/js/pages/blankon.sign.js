@@ -109,7 +109,7 @@ var BlankonSign = function () {
                                 }
                             },
                         rules:{
-                            username: {
+                            email: {
                                 required: true
                             },
                             password: {
@@ -117,8 +117,8 @@ var BlankonSign = function () {
                             }
                         },
                         messages: {
-                            username: {
-                                required: "Just fill anything mr awesome"
+                            email: {
+                                required: "Please provide email"
                             },
                             password: {
                                 required: "Please provide a password"
@@ -131,20 +131,7 @@ var BlankonSign = function () {
                             $(element).parents('.form-group').removeClass('has-error');
                         },
                         submitHandler: function(form){
-                            var btn = $('#login-btn');
-                            btn.html('Checking ...');
-                            // Add sounds
-                            if($('.page-sound').length){
-                                ion.sound.play("cd_tray");
-                            }
-                            btn.attr('disabled', 'disabled');
-                            setTimeout(function() {
-                                btn.text('Great MR AWESOME !');
-                            }, 2000);
-                            btn.removeAttr('disabled');
-                            setTimeout(function () {
-                                form.submit();
-                            }, 2500);
+                            form.submit();
                         }
                     }
                 );
