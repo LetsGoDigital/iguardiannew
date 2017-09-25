@@ -359,7 +359,7 @@
                          data-startslide="0"
                          data-endslide="3"
 
-                         style="z-index: 6;"><img class="logo-image" src="http://img.djavaui.com/?create=175x50,81B71A?f=ffffff" alt="..." width="175" height="50" data-ww="['175px','175px','175px','175px']" data-hh="['50px','50px','50px','50px']">
+                         style="z-index: 6;"><img class="logo-image" src="http://iguardian.enviousdigital.co.uk/wp-content/uploads/sites/41/2017/03/iGuardian-Logo-dark.png" alt="..." width="292" height="215" data-ww="['292px','292px','292px','292px']" data-hh="['215px','215px','215px','215px']">
                     </div>
 
                     <!-- LAYER NR. 3 -->
