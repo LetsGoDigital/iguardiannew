@@ -1163,7 +1163,7 @@
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-md-6">
-                        <div class="wow bounceIn pull-left footer-copyright">Copyright &copy; <span id="footer-copyright"></span>. Designed by <a href="http://djavaui.com" target="_blank">Djava UI</a></div>
+                        <div class="wow bounceIn pull-left footer-copyright">Copyright &copy; <span id="footer-copyright"></span>. Designed by <a href="http://enviousdigital.co.uk" target="_blank">Envious Digital</a></div>
                     </div>
                     <div class="col-md-6">
                         <ul class="wow bounceIn pull-right footer-social" data-wow-delay="0.5s">
