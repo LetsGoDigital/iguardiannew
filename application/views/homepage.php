@@ -65,12 +65,69 @@
 
 <!-- START @WRAPPER -->
 <section id="wrapper">
+   
+   <nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container" style="width: 100%">
+        <div class="navbar-header" style="background-color: white">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">iGuardian Logo</a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <!--<ul class="nav navbar-nav">
+            <li class=""><a href="#">Home</a></li>
+            <li class="About">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">About <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="#">iGuardian Community</a></li>
+                
+              </ul>
+            </li>
+            <li><a href="#contact">Trial</a></li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Price Plans <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="#">Switch</a></li>
+                <li><a href="#">Refer</a></li>
+                
+              </ul>
+              <li><a href="#contact">Contact Us</a></li>
+            </li>
+          </ul>-->
+          <ul class="nav navbar-nav navbar-right">
+           <li class=""><a href="#">Home</a></li>
+            <li class="About">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">About <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="#">iGuardian Community</a></li>
+                
+              </ul>
+            </li>
+            <li><a href="#contact">Trial</a></li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Price Plans <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="#">Switch</a></li>
+                <li><a href="#">Refer</a></li>
+                
+              </ul>
+              <li><a href="#contact">Contact Us</a></li>
+            </li>
+            <li class=""><a href="#">Login<span class="sr-only">(current)</span></a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </nav>
     <!--[if lt IE 9]>
     <p class="upgrade-browser">Upps!! You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/" target="_blank">upgrade your browser</a> to improve your experience.</p>
     <![endif]-->
 
     <!-- START @PRELOADER -->
-    <div id="loader-wrapper">
+   <div id="loader-wrapper">
         <div class="sk-cube-grid">
             <div class="sk-cube sk-cube1"></div>
             <div class="sk-cube sk-cube2"></div>
@@ -88,7 +145,11 @@
     <!--/ END PRELOADER -->
 
     <!-- START @BANNER -->
+    
+    
+    
     <section id="banner">
+		
         <div id="rev_slider_66_1_wrapper" class="rev_slider_wrapper fullscreen-container" data-alias="web-product-dark62" style="background-color:transparent;padding:0px;">
             <!-- START REVOLUTION SLIDER 5.0.7 fullscreen mode -->
             <div id="rev_slider_66_1" class="rev_slider fullscreenbanner" style="display:none;" data-version="5.0.7">
@@ -359,7 +420,7 @@
                          data-startslide="0"
                          data-endslide="3"
 
-                         style="z-index: 6;"><img class="logo-image" src="http://iguardian.enviousdigital.co.uk/wp-content/uploads/sites/41/2017/03/iGuardian-Logo-dark.png" alt="..." width="292" height="215" data-ww="['292px','292px','292px','292px']" data-hh="['215px','215px','215px','215px']">
+                         
                     </div>
 
                     <!-- LAYER NR. 3 -->
@@ -506,9 +567,9 @@
                         <span></span>
                         <span></span>
                     </div>
-                </div>
+          </div>
                 <div class="tp-bannertimer tp-bottom" style="visibility: hidden !important;"></div>
-            </div>
+      </div>
         </div><!-- END REVOLUTION SLIDER -->
     </section> <!-- /#banner -->
     <!--/ END BANNER -->
