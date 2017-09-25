@@ -11,7 +11,7 @@
     <meta name="description" content="Blankon is a theme fullpack admin template powered by Twitter bootstrap 3 front-end framework. Included are multiple example pages, elements styles, and javascript widgets to get your project started.">
     <meta name="keywords" content="">
     <meta name="author" content="Djava UI">
-    <title>APP SHOWCASE | BLANKON - Fullpack Admin Theme</title>
+    <title>iGuardian</title>
     <!--/ END META SECTION -->
 
     <!-- START @FAVICONS -->
@@ -96,7 +96,7 @@
                     <!-- SLIDE  -->
                     <li data-index="rs-227" data-transition="slidevertical" data-slotamount="1"  data-easein="default" data-easeout="default" data-masterspeed="1500"  data-rotate="0"  data-fstransition="fade" data-fsmasterspeed="1500" data-fsslotamount="7" data-saveperformance="off"  data-title="Intro" data-description="">
                         <!-- MAIN IMAGE -->
-                        <img src="http://img.djavaui.com/?create=1600x900,050505?f=ffffff"  alt="..."  data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg" data-no-retina>
+                        <img src="http://sunninghillprep.co.uk/wp-content/uploads/2016/05/nursery-trio-sand-art.jpg"  alt="..."  data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg" data-no-retina>
                         <!-- LAYERS -->
 
                         <!-- LAYER NR. 1 -->
@@ -236,8 +236,7 @@
                              data-responsive_offset="on"
 
 
-                             style="z-index: 11; white-space: nowrap;">Great<br/>
-                            Product
+                             style="z-index: 11; white-space: nowrap;">iGuardian
                         </div>
 
                         <!-- LAYER NR. 8 -->
