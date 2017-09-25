@@ -1066,7 +1066,12 @@
     <!--/ END TESTIMONIAL -->
 
     <!-- START @FOOTER -->
-    <footer id="footer">
+     <!-- /#footer -->
+    <!--/ END FOOTER -->
+</section> <!-- /#wrapper -->
+<!--/ END WRAPPER -->
+
+<footer id="footer">
         <div class="footer-menu">
             <div class="container-fluid">
                 <div class="row">
@@ -1172,10 +1177,7 @@
                 </div>
             </div>
         </div>
-    </footer> <!-- /#footer -->
-    <!--/ END FOOTER -->
-</section> <!-- /#wrapper -->
-<!--/ END WRAPPER -->
+    </footer>
 
 <!-- START @BACK TOP -->
 <div id="back-top" class="animated pulse circle">
