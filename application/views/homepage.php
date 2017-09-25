@@ -819,7 +819,7 @@
     <section id="pricing-table">
         <div class="container">
             <div class="section-header section-border wow zoomIn">
-                <h1 class="text-title text-center text-thin">Pricing Tables</h1>
+                <h1 class="text-title text-center text-thin">Price Plans</h1>
             </div>
             <div class="row">
                 <div class="col-md-4 col-sm-4 wow slideInLeft">
