@@ -642,13 +642,13 @@
     <section id="features">
         <div class="container">
             <div class="section-header section-border wow zoomIn">
-                <h1 class="text-title text-center text-thin">Why Choose Blankon</h1>
+                <h1 class="text-title text-center text-thin">iGuardian Key Features</h1>
             </div>
             <div class="row hidden-sm hidden-xs">
                 <div class="col-md-4 feature-left">
                     <div class="feature-item media wow slideInLeft">
                         <div class="media-body">
-                            <h4 class="media-heading">Built Using Bootstrap</h4>
+                            <h4 class="media-heading">Online Registration</h4>
                             A front-end toolkit for creating websites. It is a collection of CSS, HTML and other interface components, as well as optional Javascript extensions.
                         </div>
                         <div class="media-right">
@@ -657,7 +657,7 @@
                     </div>
                     <div class="feature-item media wow slideInLeft">
                         <div class="media-body">
-                            <h4 class="media-heading">Using SASS & Compass</h4>
+                            <h4 class="media-heading">EYFS, COEL &amp; Monastery frameworks</h4>
                             Blankon easy to use and re-developed because Blankon developed using SASS & Compass, there are variables, mixins, operations and functions of CSS.
                         </div>
                         <div class="media-right">
@@ -666,7 +666,7 @@
                     </div>
                     <div class="feature-item media wow slideInLeft">
                         <div class="media-body">
-                            <h4 class="media-heading">Retina ready</h4>
+                            <h4 class="media-heading">Complete and upload Ofsted reports</h4>
                             The goal of Retina displays is to make the display of text and images extremely crisp, so pixels are not visible to the naked eye. So retina for your amazing website.
                         </div>
                         <div class="media-right">
@@ -675,7 +675,7 @@
                     </div>
                     <div class="feature-item media wow slideInLeft">
                         <div class="media-body">
-                            <h4 class="media-heading">100% Fully Responsive</h4>
+                            <h4 class="media-heading">Complete risk assessments</h4>
                             Blankon has a fully responsive layout. It fits perfectly on various displays and resolutions from regular desktop screens to tablets and mobile devices.
                         </div>
                         <div class="media-right">
@@ -684,7 +684,7 @@
                     </div>
                     <div class="feature-item media wow slideInLeft">
                         <div class="media-body">
-                            <h4 class="media-heading">Valid HTML5 & CSS3</h4>
+                            <h4 class="media-heading">Track and monitor child progress</h4>
                             All design code Blankon have been tested valid HTML5 and CSS3 code, thus later providing a powerful quality code for your website.
                         </div>
                         <div class="media-right">
@@ -703,7 +703,7 @@
                             <i class="icon-layers icons feature-icon"></i>
                         </div>
                         <div class="media-body">
-                            <h4 class="media-heading">Blankon Versions</h4>
+                            <h4 class="media-heading">Record daily diaries</h4>
                             Blankon versions all within bundle, available 8 versions Static HTML, AngularJS and More. All packages that will help you in your awesome project.
                         </div>
                     </div>
@@ -712,7 +712,7 @@
                             <i class="icon-volume-2 icons feature-icon"></i>
                         </div>
                         <div class="media-body">
-                            <h4 class="media-heading">Playing Sounds</h4>
+                            <h4 class="media-heading">Graduation packs</h4>
                             Today websites are full of events (new mail, new chat-message, content update etc.). Often it is not enough to indicate this events only visually to get user attention.
                         </div>
                     </div>
@@ -721,7 +721,7 @@
                             <i class="icon-chemistry icons feature-icon"></i>
                         </div>
                         <div class="media-body">
-                            <h4 class="media-heading">60+ Famous plugins</h4>
+                            <h4 class="media-heading">Action plans</h4>
                             Blankon includes custom plugins, forms, validations, datatables, notifications, maps and much more plugins powered by JQuery and the best star on Github.
                         </div>
                     </div>
@@ -730,7 +730,7 @@
                             <i class="icon-rocket icons feature-icon"></i>
                         </div>
                         <div class="media-body">
-                            <h4 class="media-heading">SEO Optimized</h4>
+                            <h4 class="media-heading">Staff performance levels</h4>
                             Search engines will easily index any page of your content website because the theme uses clean, semantic and valid HTML, CSS, and Javascript code.
                         </div>
                     </div>
@@ -739,7 +739,7 @@
                             <i class="icon-cup icons feature-icon"></i>
                         </div>
                         <div class="media-body">
-                            <h4 class="media-heading">Well Documentation</h4>
+                            <h4 class="media-heading">Safeguarding &amp; GDPR compliant</h4>
                             Blankon documentation summarized well and clearly. Documentation about base style, javascript plugins, license resource, color schemes and many more.
                         </div>
                     </div>
@@ -754,7 +754,7 @@
                             <i class="icon-layers icons feature-icon"></i>
                         </div>
                         <div class="media-body">
-                            <h4 class="media-heading">Blankon Versions</h4>
+                            <h4 class="media-heading">AWS level security</h4>
                             A front-end toolkit for creating websites. It is a collection of CSS, HTML and other interface components, as well as optional Javascript extensions.
                         </div>
                     </div>
@@ -763,7 +763,7 @@
                             <i class="icon-wrench icons feature-icon"></i>
                         </div>
                         <div class="media-body">
-                            <h4 class="media-heading">Built Using Bootstrap</h4>
+                            <h4 class="media-heading">Customiseable dashboard</h4>
                             Blankon easy to use and re-developed because Blankon developed using SASS & Compass, there are variables, mixins, operations and functions of CSS.
                         </div>
                     </div>
@@ -772,7 +772,7 @@
                             <i class="icon-emoticon-smile icons feature-icon"></i>
                         </div>
                         <div class="media-body">
-                            <h4 class="media-heading">Retina ready</h4>
+                            <h4 class="media-heading">Upload and send photos and videos</h4>
                             The goal of Retina displays is to make the display of text and images extremely crisp, so pixels are not visible to the naked eye. So retina for your amazing website.
                         </div>
                     </div>
@@ -781,7 +781,7 @@
                             <i class="icon-screen-desktop icons feature-icon"></i>
                         </div>
                         <div class="media-body">
-                            <h4 class="media-heading">100% Fully Responsive</h4>
+                            <h4 class="media-heading">Instant notifications</h4>
                             Blankon has a fully responsive layout. It fits perfectly on various displays and resolutions from regular desktop screens to tablets and mobile devices.
                         </div>
                     </div>
@@ -799,7 +799,7 @@
                             <i class="icon-volume-2 icons feature-icon"></i>
                         </div>
                         <div class="media-body">
-                            <h4 class="media-heading">Playing Sounds</h4>
+                            <h4 class="media-heading">Instant Messaging</h4>
                             Today websites are full of events (new mail, new chat-message, content update etc.). Often it is not enough to indicate this events only visually to get user attention.
                         </div>
                     </div>
@@ -808,7 +808,7 @@
                             <i class="icon-chemistry icons feature-icon"></i>
                         </div>
                         <div class="media-body">
-                            <h4 class="media-heading">60+ Famous plugins</h4>
+                            <h4 class="media-heading">Enable / Disable access</h4>
                             Blankon includes custom plugins, forms, validations, datatables, notifications, maps and much more plugins powered by JQuery and the best star on Github.
                         </div>
                     </div>
@@ -817,7 +817,7 @@
                             <i class="icon-rocket icons feature-icon"></i>
                         </div>
                         <div class="media-body">
-                            <h4 class="media-heading">SEO Optimized</h4>
+                            <h4 class="media-heading">Accounting</h4>
                             Search engines will easily index any page of your content website because the theme uses clean, semantic and valid HTML, CSS, and Javascript code.
                         </div>
                     </div>
@@ -826,7 +826,11 @@
                             <i class="icon-cup icons feature-icon"></i>
                         </div>
                         <div class="media-body">
-                            <h4 class="media-heading">Well Documentation</h4>
+                            <h4 class="media-heading">Create and send invoices</h4>
+                            Blankon documentation summarized well and clearly. Documentation about base style, javascript plugins, license resource, color schemes and many more.
+                        </div>
+                        <div class="media-body">
+                            <h4 class="media-heading">E-Signatures</h4>
                             Blankon documentation summarized well and clearly. Documentation about base style, javascript plugins, license resource, color schemes and many more.
                         </div>
                     </div>
@@ -894,12 +898,8 @@
                         </div>
                         <div class="pricing-body">
                             <ul>
-                                <li>Unlimited Support</li>
-                                <li>No Credit Card Required</li>
-                                <li>HTML5 Mobile Website</li>
-                                <li>Unlimited Users</li>
-                                <li>Custom URL & QR Code</li>
-                                <li>User Forum & FAQ Support</li>
+                                <li>Parent and Setting Access</li>
+                                <li>Ability to Upload Pictures</li>
                             </ul>
                         </div>
                         <div class="pricing-footer">
@@ -921,12 +921,10 @@
                         </div>
                         <div class="pricing-body">
                             <ul>
-                                <li>Unlimited Support</li>
-                                <li>No Credit Card Required</li>
-                                <li>HTML5 Mobile Website</li>
-                                <li>Unlimited Users</li>
-                                <li>Custom URL & QR Code</li>
-                                <li>User Forum & FAQ Support</li>
+                                <li>Parent and Setting Access</li>
+                                <li>Ability to Upload Pictures</li>
+                                <li>Invoicing Management</li>
+                                <li>Accounting Management</li>
                             </ul>
                         </div>
                         <div class="pricing-footer">
@@ -939,18 +937,17 @@
                         <div class="pricing-header">
                             <h3>Advanced</h3>
                             <div class="pricing-money">
-                                <b>£299</b>
+                                <b>£300</b>
                                 <span>per month</span>
                             </div>
                         </div>
                         <div class="pricing-body">
                             <ul>
-                                <li>Unlimited Support</li>
-                                <li>No Credit Card Required</li>
-                                <li>HTML5 Mobile Website</li>
-                                <li>Unlimited Users</li>
-                                <li>Custom URL & QR Code</li>
-                                <li>User Forum & FAQ Support</li>
+                                <li>Parent and Setting Access</li>
+                                <li>Ability to Upload Pictures</li>
+                                <li>Invoicing Management</li>
+                                <li>Accounting Management</li>
+                                <li>Ability to Upload Video</li>
                             </ul>
                         </div>
                         <div class="pricing-footer">
