@@ -3,7 +3,7 @@
 
     <!-- Brand -->
     <div class="brand">
-        <img src="http://img.djavaui.com/?create=220x100,4888E1?f=ffffff" alt="brand logo"/>
+        <img src="http://iguardian.enviousdigital.co.uk/wp-content/uploads/sites/41/2017/03/iGuardian-Logo-dark.png" alt="brand logo"/>
     </div>
     <!--/ Brand -->
 

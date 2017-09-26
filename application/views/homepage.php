@@ -117,7 +117,7 @@
               </ul>
               <li><a href="#contact">Contact Us</a></li>
             </li>
-            <li class=""><a href="#">Login<span class="sr-only">(current)</span></a></li>
+            <li class=""><a href="<?php echo base_url('user/login'); ?>">Login<span class="sr-only">(current)</span></a></li>
           </ul>
         </div><!--/.nav-collapse -->
       </div>
