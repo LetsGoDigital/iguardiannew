@@ -52,7 +52,7 @@
     <!--/ Login form -->
 
     <!-- Content text -->
-    <p class="text-muted text-center sign-link">Need an account? <a href="<?php echo base_url('user/signup'); ?>"> Sign up free</a></p>
+    <p class="text-muted text-center sign-link">Dont have an account? <a href="<?php echo base_url('user/signup'); ?>"> Register now</a></p>
     <!--/ Content text -->
 
 </div><!-- /#sign-wrapper -->

@@ -1,4 +1,4 @@
 <footer class="footer-content">
-    2014 - <span id="copyright-year"></span> &copy; Blankon Admin. Created by <a href="http://djavaui.com/" target="_blank">Djava UI</a>, Yogyakarta ID
-    <span class="pull-right">0.01 GB(0%) of 15 GB used</span>
+    <span id="copyright-year"></span> &copy; iGuardian Guarding our future generations
+    <span class="pull-right">Designed by <a href="http://enviousdigital.com/" target="_blank">Envious Digital</a></span>
 </footer><!-- /.footer-content -->
