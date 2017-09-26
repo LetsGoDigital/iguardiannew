@@ -11,7 +11,7 @@
     <meta name="description" content="Blankon is a theme fullpack admin template powered by Twitter bootstrap 3 front-end framework. Included are multiple example pages, elements styles, and javascript widgets to get your project started.">
     <meta name="keywords" content="">
     <meta name="author" content="Djava UI">
-    <title>APP SHOWCASE | BLANKON - Fullpack Admin Theme</title>
+    <title>iGuardian</title>
     <!--/ END META SECTION -->
 
     <!-- START @FAVICONS -->
@@ -65,12 +65,69 @@
 
 <!-- START @WRAPPER -->
 <section id="wrapper">
+   
+   <nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container" style="width: 100%">
+        <div class="navbar-header" style="background-color: white">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">iGuardian Logo</a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <!--<ul class="nav navbar-nav">
+            <li class=""><a href="#">Home</a></li>
+            <li class="About">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">About <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="#">iGuardian Community</a></li>
+                
+              </ul>
+            </li>
+            <li><a href="#contact">Trial</a></li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Price Plans <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="#">Switch</a></li>
+                <li><a href="#">Refer</a></li>
+                
+              </ul>
+              <li><a href="#contact">Contact Us</a></li>
+            </li>
+          </ul>-->
+          <ul class="nav navbar-nav navbar-right">
+           <li class=""><a href="#">Home</a></li>
+            <li class="About">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">About <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="#">iGuardian Community</a></li>
+                
+              </ul>
+            </li>
+            <li><a href="#contact">Trial</a></li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Price Plans <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="#">Switch</a></li>
+                <li><a href="#">Refer</a></li>
+                
+              </ul>
+              <li><a href="#contact">Contact Us</a></li>
+            </li>
+            <li class=""><a href="#">Login<span class="sr-only">(current)</span></a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </nav>
     <!--[if lt IE 9]>
     <p class="upgrade-browser">Upps!! You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/" target="_blank">upgrade your browser</a> to improve your experience.</p>
     <![endif]-->
 
     <!-- START @PRELOADER -->
-    <div id="loader-wrapper">
+   <div id="loader-wrapper">
         <div class="sk-cube-grid">
             <div class="sk-cube sk-cube1"></div>
             <div class="sk-cube sk-cube2"></div>
@@ -88,7 +145,11 @@
     <!--/ END PRELOADER -->
 
     <!-- START @BANNER -->
+    
+    
+    
     <section id="banner">
+		
         <div id="rev_slider_66_1_wrapper" class="rev_slider_wrapper fullscreen-container" data-alias="web-product-dark62" style="background-color:transparent;padding:0px;">
             <!-- START REVOLUTION SLIDER 5.0.7 fullscreen mode -->
             <div id="rev_slider_66_1" class="rev_slider fullscreenbanner" style="display:none;" data-version="5.0.7">
@@ -96,7 +157,7 @@
                     <!-- SLIDE  -->
                     <li data-index="rs-227" data-transition="slidevertical" data-slotamount="1"  data-easein="default" data-easeout="default" data-masterspeed="1500"  data-rotate="0"  data-fstransition="fade" data-fsmasterspeed="1500" data-fsslotamount="7" data-saveperformance="off"  data-title="Intro" data-description="">
                         <!-- MAIN IMAGE -->
-                        <img src="http://img.djavaui.com/?create=1600x900,050505?f=ffffff"  alt="..."  data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg" data-no-retina>
+                        <img src="http://sunninghillprep.co.uk/wp-content/uploads/2016/05/nursery-trio-sand-art.jpg"  alt="..."  data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg" data-no-retina>
                         <!-- LAYERS -->
 
                         <!-- LAYER NR. 1 -->
@@ -236,8 +297,7 @@
                              data-responsive_offset="on"
 
 
-                             style="z-index: 11; white-space: nowrap;">Great<br/>
-                            Product
+                             style="z-index: 11; white-space: nowrap;">iGuardian
                         </div>
 
                         <!-- LAYER NR. 8 -->
@@ -360,7 +420,7 @@
                          data-startslide="0"
                          data-endslide="3"
 
-                         style="z-index: 6;"><img class="logo-image" src="http://img.djavaui.com/?create=175x50,81B71A?f=ffffff" alt="..." width="175" height="50" data-ww="['175px','175px','175px','175px']" data-hh="['50px','50px','50px','50px']">
+                         
                     </div>
 
                     <!-- LAYER NR. 3 -->
@@ -507,9 +567,9 @@
                         <span></span>
                         <span></span>
                     </div>
-                </div>
+          </div>
                 <div class="tp-bannertimer tp-bottom" style="visibility: hidden !important;"></div>
-            </div>
+      </div>
         </div><!-- END REVOLUTION SLIDER -->
     </section> <!-- /#banner -->
     <!--/ END BANNER -->
@@ -820,15 +880,15 @@
     <section id="pricing-table">
         <div class="container">
             <div class="section-header section-border wow zoomIn">
-                <h1 class="text-title text-center text-thin">Pricing Tables</h1>
+                <h1 class="text-title text-center text-thin">Price Plans</h1>
             </div>
             <div class="row">
                 <div class="col-md-4 col-sm-4 wow slideInLeft">
                     <div class="pricing-list">
                         <div class="pricing-header">
-                            <h3>Standard Price</h3>
+                            <h3>Starter</h3>
                             <div class="pricing-money">
-                                <b>$5</b>
+                                <b>£149</b>
                                 <span>per month</span>
                             </div>
                         </div>
@@ -843,7 +903,7 @@
                             </ul>
                         </div>
                         <div class="pricing-footer">
-                            <a href="#" class="btn btn-success">Let's Go</a>
+                            <a href="#" class="btn btn-success">Trial It</a>
                         </div>
                     </div>
                 </div>
@@ -853,9 +913,9 @@
                             <div class="ribbon">Popular</div>
                         </div>
                         <div class="pricing-header">
-                            <h3>Professional Price</h3>
+                            <h3>Development</h3>
                             <div class="pricing-money">
-                                <b>$25</b>
+                                <b>£229</b>
                                 <span>per month</span>
                             </div>
                         </div>
@@ -870,16 +930,16 @@
                             </ul>
                         </div>
                         <div class="pricing-footer">
-                            <a href="#" class="btn btn-success">Go for Pro!</a>
+                            <a href="#" class="btn btn-success">Trial It</a>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-4 col-sm-4 wow slideInRight">
                     <div class="pricing-list">
                         <div class="pricing-header">
-                            <h3>Corporate Price</h3>
+                            <h3>Advanced</h3>
                             <div class="pricing-money">
-                                <b>$100</b>
+                                <b>£299</b>
                                 <span>per month</span>
                             </div>
                         </div>
@@ -894,7 +954,7 @@
                             </ul>
                         </div>
                         <div class="pricing-footer">
-                            <a href="#" class="btn btn-success">Get Started</a>
+                            <a href="#" class="btn btn-success">Trial It</a>
                         </div>
                     </div>
                 </div>
@@ -1067,7 +1127,12 @@
     <!--/ END TESTIMONIAL -->
 
     <!-- START @FOOTER -->
-    <footer id="footer">
+     <!-- /#footer -->
+    <!--/ END FOOTER -->
+</section> <!-- /#wrapper -->
+<!--/ END WRAPPER -->
+
+<footer id="footer">
         <div class="footer-menu">
             <div class="container-fluid">
                 <div class="row">
@@ -1159,7 +1224,7 @@
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-md-6">
-                        <div class="wow bounceIn pull-left footer-copyright">Copyright &copy; <span id="footer-copyright"></span>. Designed by <a href="http://djavaui.com" target="_blank">Djava UI</a></div>
+                        <div class="wow bounceIn pull-left footer-copyright">Copyright &copy; <span id="footer-copyright"></span>. Designed by <a href="http://enviousdigital.co.uk" target="_blank">Envious Digital</a></div>
                     </div>
                     <div class="col-md-6">
                         <ul class="wow bounceIn pull-right footer-social" data-wow-delay="0.5s">
@@ -1173,10 +1238,7 @@
                 </div>
             </div>
         </div>
-    </footer> <!-- /#footer -->
-    <!--/ END FOOTER -->
-</section> <!-- /#wrapper -->
-<!--/ END WRAPPER -->
+    </footer>
 
 <!-- START @BACK TOP -->
 <div id="back-top" class="animated pulse circle">
