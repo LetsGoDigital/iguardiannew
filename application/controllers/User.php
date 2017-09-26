@@ -105,5 +105,10 @@ class User extends CI_Controller {
         $data['content'] = $this->load->view("signup", $data, true);
         $this->load->view("layouts/main_unauthenticated", $data);
     }
+    
+    public function logout(){
+        $this->session->sess_destroy();
+        redirect("user/login");
+    }
 
 }
