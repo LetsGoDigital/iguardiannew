@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <meta name="description" content="Blankon is a theme fullpack admin template powered by Twitter bootstrap 3 front-end framework. Included are multiple example pages, elements styles, and javascript widgets to get your project started.">
     <meta name="keywords" content="">
-    <meta name="author" content="Djava UI">
+    <meta name="author" content="iGuardian">
     <title>iGuardian</title>
     <!--/ END META SECTION -->
 
@@ -64,7 +64,7 @@
 <body>
 
 <!-- START @WRAPPER -->
-<section id="wrapper">
+<section id="wrapper" >
    
    <nav class="navbar navbar-default navbar-fixed-top">
       <div class="container" style="width: 100%">
@@ -176,7 +176,7 @@
                              data-responsive_offset="on"
 
 
-                             style="z-index: 5;"><img src="http://img.djavaui.com/?create=1000x600,333333?f=ffffff" alt="..." width="1000" height="600" data-ww="['1000px','1000px','500px','350px']" data-hh="['600px','600px','300px','210px']" data-no-retina>
+                             style="z-index: 5;"><img src="http://themes.djavaui.com/blankon-fullpack-admin-theme/img/frontend-themes/one-page/app-showcase/banner/2.png" alt="..." width="1000" height="600" data-ww="['1000px','1000px','500px','350px']" data-hh="['600px','600px','300px','210px']" data-no-retina>
                         </div>
 
                         <!-- LAYER NR. 2 -->
@@ -215,7 +215,7 @@
                              data-responsive_offset="on"
 
 
-                             style="z-index: 7;"><img src="http://img.djavaui.com/?create=430x540,333333?f=ffffff" alt="..." width="430" height="540" data-ww="['430px','430px','200px','170px']" data-hh="['540px','540px','251px','213px']" data-no-retina>
+                             style="z-index: 7;"><img src="http://themes.djavaui.com/blankon-fullpack-admin-theme/img/frontend-themes/one-page/app-showcase/banner/4.png" alt="..." width="430" height="540" data-ww="['430px','430px','200px','170px']" data-hh="['540px','540px','251px','213px']" data-no-retina>
                         </div>
 
                         <!-- LAYER NR. 4 -->
@@ -254,7 +254,7 @@
                              data-responsive_offset="on"
 
 
-                             style="z-index: 9;"><img src="http://img.djavaui.com/?create=260x450,333333?f=ffffff" alt="..." width="260" height="450" data-ww="['260px','260px','130px','100px']" data-hh="['450px','450px','225px','173px']" data-no-retina>
+                             style="z-index: 9;"><img src="http://themes.djavaui.com/blankon-fullpack-admin-theme/img/frontend-themes/one-page/app-showcase/banner/6.png" alt="..." width="260" height="450" data-ww="['260px','260px','130px','100px']" data-hh="['450px','450px','225px','173px']" data-no-retina>
                         </div>
 
                         <!-- LAYER NR. 6 -->
@@ -297,7 +297,7 @@
                              data-responsive_offset="on"
 
 
-                             style="z-index: 11; white-space: nowrap;">iGuardian
+							 style="z-index: 11; white-space: nowrap;">Welcome to<br><span style="color: #F37D0B">iGuardian</span>
                         </div>
 
                         <!-- LAYER NR. 8 -->
@@ -910,7 +910,7 @@
                 <div class="col-md-4 col-sm-4 wow slideInUp">
                     <div class="pricing-list selected">
                         <div class="ribbon-wrapper">
-                            <div class="ribbon">Popular</div>
+                            <div class="ribbon" style="color: #ff7700">Popular</div>
                         </div>
                         <div class="pricing-header">
                             <h3>Development</h3>
