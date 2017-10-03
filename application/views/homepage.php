@@ -369,7 +369,7 @@ allowing them to interact in a safe and secure environment<br/>
                              data-responsive_offset="on"
                              data-responsive="off"
 
-                             style="z-index: 14; white-space: nowrap;letter-spacing:1px;"><a href="#features" class="page-scroll">GET STARTED TODAY</a>
+                             style="z-index: 14; white-space: nowrap;letter-spacing:1px; background-color: orange"><a href="#features" class="page-scroll">GET STARTED TODAY</a>
                         </div>
                     </li>
                 </ul>
@@ -573,7 +573,7 @@ allowing them to interact in a safe and secure environment<br/>
                     </div>
                     <div class="feature-item media">
                         <div class="media-left">
-                            <i class="icon-emoticon-smile icons feature-icon"></i>
+                            <i class="icon-screen-desktop icons feature-icon"></i>
                         </div>
                         <div class="media-body">
                             <h4 class="media-heading">Upload and send photos and videos</h4>
@@ -633,10 +633,7 @@ allowing them to interact in a safe and secure environment<br/>
                             <h4 class="media-heading">Create and send invoices</h4>
                             Documentation summarized well and clearly. Documentation about base style, javascript plugins, license resource, color schemes and many more.
                         </div>
-                        <div class="media-body">
-                            <h4 class="media-heading">E-Signatures</h4>
-                            Documentation summarized well and clearly. Documentation about base style, javascript plugins, license resource, color schemes and many more.
-                        </div>
+                        
                     </div>
                 </div>
             </div>
