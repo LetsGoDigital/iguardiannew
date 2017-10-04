@@ -66,8 +66,8 @@
 <!-- START @WRAPPER -->
 <section id="wrapper" >
    
-   <nav class="navbar navbar-default navbar-fixed-top">
-      <div class="container" style="width: 100%">
+   <nav class="navbar navbar-light navbar-fixed-top bg-faded">
+      <div class="container" style="width: 100%; min-height:150px; background-color: white">
         <div class="navbar-header" style="background-color: white">
           <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
             <span class="sr-only">Toggle navigation</span>
@@ -75,7 +75,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="#">iGuardian Logo</a>
+          <a class="navbar-brand" href="#"><img src="../../assets/global/img/frontend/logo_small.png" style="width: 219px; height: 150px; margin-top: -17px" alt="iGuardian Logo"/></a>
         </div>
         <div id="navbar" class="navbar-collapse collapse">
           <!--<ul class="nav navbar-nav">
@@ -98,11 +98,11 @@
               <li><a href="#contact">Contact Us</a></li>
             </li>
           </ul>-->
-          <ul class="nav navbar-nav navbar-right">
+          <ul class="nav navbar-nav navbar-right" style="font-size: 18px; margin-right: 20px">
            <li class=""><a href="#">Home</a></li>
             <li class="About">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">About <span class="caret"></span></a>
-              <ul class="dropdown-menu">
+              <ul class="dropdown-menu" style="color: orange">
                 <li><a href="#">iGuardian Community</a></li>
                 
               </ul>
@@ -110,7 +110,7 @@
             <li><a href="#contact">Trial</a></li>
             <li class="dropdown">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Price Plans <span class="caret"></span></a>
-              <ul class="dropdown-menu">
+              <ul class="dropdown-menu" style="color: orange">
                 <li><a href="#">Switch</a></li>
                 <li><a href="#">Refer</a></li>
                 
@@ -157,7 +157,7 @@
                     <!-- SLIDE  -->
                     <li data-index="rs-227" data-transition="slidevertical" data-slotamount="1"  data-easein="default" data-easeout="default" data-masterspeed="1500"  data-rotate="0"  data-fstransition="fade" data-fsmasterspeed="1500" data-fsslotamount="7" data-saveperformance="off"  data-title="Intro" data-description="">
                         <!-- MAIN IMAGE -->
-                        <img src="http://sunninghillprep.co.uk/wp-content/uploads/2016/05/nursery-trio-sand-art.jpg"  alt="..."  data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg" data-no-retina>
+                        <img src="../../assets/global/img/frontend/web_bg.png"  alt="..."  data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg" data-no-retina>
                         <!-- LAYERS -->
 
                         <!-- LAYER NR. 1 -->
@@ -196,7 +196,7 @@
                              data-responsive_offset="on"
 
 
-                             style="z-index: 6;"><img src="http://img.djavaui.com/?create=1000x600,81B71A?f=ffffff" alt="..." width="653" height="408" data-ww="['653px','653px','330px','230px']" data-hh="['408px','408px','206px','144px']" data-no-retina>
+                             style="z-index: 6;"><img src="http://img.djavaui.com/?create=1000x600,ff7700?f=ffffff" alt="..." width="653" height="408" data-ww="['653px','653px','330px','230px']" data-hh="['408px','408px','206px','144px']" data-no-retina>
                         </div>
 
                         <!-- LAYER NR. 3 -->
@@ -235,7 +235,7 @@
                              data-responsive_offset="on"
 
 
-                             style="z-index: 8;"><img src="http://img.djavaui.com/?create=290x374,81B71A?f=ffffff" alt="..." width="290" height="374" data-ww="['290px','290px','135px','115px']" data-hh="['374px','374px','174px','148px']" data-no-retina>
+                             style="z-index: 8;"><img src="http://img.djavaui.com/?create=290x374,ff7700?f=ffffff" alt="..." width="290" height="374" data-ww="['290px','290px','135px','115px']" data-hh="['374px','374px','174px','148px']" data-no-retina>
                         </div>
 
                         <!-- LAYER NR. 5 -->
@@ -274,7 +274,7 @@
                              data-responsive_offset="on"
 
 
-                             style="z-index: 10;"><img src="http://img.djavaui.com/?create=170x286,81B71A?f=ffffff" alt="..." width="170" height="286" data-ww="['170px','170px','85px','66px']" data-hh="['286px','286px','143px','111px']" data-no-retina>
+                             style="z-index: 10;"><img src="http://img.djavaui.com/?create=170x286,ff7700?f=ffffff" alt="..." width="170" height="286" data-ww="['170px','170px','85px','66px']" data-hh="['286px','286px','143px','111px']" data-no-retina>
                         </div>
 
                         <!-- LAYER NR. 7 -->
@@ -342,8 +342,10 @@
                              data-responsive_offset="on"
 
 
-                             style="z-index: 13; min-width: 448px; max-width: 448px; white-space: normal;">Blankon is an fully responsive and multi-purpose HTML5 frontend template powered by Twitter Bootstrap framework.<br/>
-                            You can be a part now!
+                             style="z-index: 13; min-width: 448px; max-width: 448px; white-space: normal;">iGuardian is an online platform connecting Nurseries & Parents
+
+allowing them to interact in a safe and secure environment<br/>
+                            You can be a part of it now!
                         </div>
 
                         <!-- LAYER NR. 10 -->
@@ -367,209 +369,11 @@
                              data-responsive_offset="on"
                              data-responsive="off"
 
-                             style="z-index: 14; white-space: nowrap;letter-spacing:1px;"><a href="#features" class="page-scroll">GET STARTED TODAY</a>
+                             style="z-index: 14; white-space: nowrap;letter-spacing:1px; background-color: orange"><a href="#features" class="page-scroll">GET STARTED TODAY</a>
                         </div>
                     </li>
                 </ul>
-                <div class="tp-static-layers">
-                    <!-- LAYER NR. 1 -->
-                    <div class="tp-caption -   tp-static-layer"
-                         id="slide-30-layer-1"
-                         data-x="['right','right','right','right']" data-hoffset="['30','30','30','30']"
-                         data-y="['top','top','top','top']" data-voffset="['30','30','30','30']"
-                         data-width="none"
-                         data-height="none"
-                         data-whitespace="nowrap"
-                         data-transform_idle="o:1;"
-
-                         data-transform_in="opacity:0;s:1000;e:Power3.easeInOut;"
-                         data-transform_out="auto:auto;s:1000;"
-                         data-start="500"
-                         data-splitin="none"
-                         data-splitout="none"
-                         data-actions='[{"event":"click","action":"toggleclass","layer":"slide-30-layer-1","delay":"0","classname":"open"},{"event":"click","action":"togglelayer","layerstatus":"hidden","layer":"slide-30-layer-3","delay":"0"},{"event":"click","action":"togglelayer","layerstatus":"hidden","layer":"slide-30-layer-4","delay":"0"},{"event":"click","action":"togglelayer","layerstatus":"hidden","layer":"slide-30-layer-5","delay":"0"},{"event":"click","action":"togglelayer","layerstatus":"hidden","layer":"slide-30-layer-6","delay":"0"}]'
-                         data-basealign="slide"
-                         data-responsive_offset="off"
-                         data-responsive="off"
-                         data-startslide="0"
-                         data-endslide="3"
-
-                         style="z-index: 5; white-space: nowrap; font-size: 20px; line-height: 22px; font-weight: 400; color: rgba(255, 255, 255, 1.00);"><div id="rev-burger" class="white">
-                        <span></span>
-                        <span></span>
-                        <span></span>
-                    </div>
-                    </div>
-
-                    <!-- LAYER NR. 2 -->
-                    <div class="tp-caption   tp-static-layer"
-                         id="slide-30-layer-2"
-                         data-x="['left','left','left','left']" data-hoffset="['30','30','30','30']"
-                         data-y="['top','top','top','top']" data-voffset="['30','30','30','30']"
-                         data-width="none"
-                         data-height="none"
-                         data-whitespace="nowrap"
-                         data-transform_idle="o:1;"
-
-                         data-transform_in="opacity:0;s:1000;e:Power3.easeInOut;"
-                         data-transform_out="auto:auto;s:1000;"
-                         data-start="500"
-                         data-basealign="slide"
-                         data-responsive_offset="off"
-                         data-responsive="off"
-                         data-startslide="0"
-                         data-endslide="3"
-
-                         
-                    </div>
-
-                    <!-- LAYER NR. 3 -->
-                    <div class="tp-caption WebProduct-Menuitem   tp-static-layer"
-                         id="slide-30-layer-3"
-                         data-x="['right','right','right','right']" data-hoffset="['120','120','120','120']"
-                         data-y="['top','top','top','top']" data-voffset="['30','30','30','30']"
-                         data-width="none"
-                         data-height="none"
-                         data-whitespace="nowrap"
-                         data-transform_idle="o:1;"
-                         data-transform_hover="o:1;rX:0;rY:0;rZ:0;z:0;s:200;e:Linear.easeNone;"
-                         data-style_hover="c:rgba(153, 153, 153, 1.00);bg:rgba(255, 255, 255, 1.00);cursor:pointer;"
-
-                         data-transform_in="y:top;s:800;e:Power3.easeInOut;"
-                         data-transform_out="x:[100%];s:1000;e:Power3.easeInOut;s:1000;e:Power3.easeInOut;"
-                         data-mask_out="x:inherit;y:inherit;"
-                         data-start="bytrigger"
-                         data-splitin="none"
-                         data-splitout="none"
-                         data-actions='[{"event":"click","action":"jumptoslide","slide":"rs-228","delay":""},{"event":"click","action":"simulateclick","layer":"slide-30-layer-7","delay":"0"}]'
-                         data-basealign="slide"
-                         data-responsive_offset="off"
-                         data-responsive="off"
-                         data-startslide="0"
-                         data-endslide="3"
-                         data-end="bytrigger"
-                         data-lasttriggerstate="keep"
-                         style="z-index: 7; white-space: nowrap;"><a href="#features" class="page-scroll">FEATURES</a>
-                    </div>
-
-                    <!-- LAYER NR. 4 -->
-                    <div class="tp-caption WebProduct-Menuitem   tp-static-layer"
-                         id="slide-30-layer-4"
-                         data-x="['right','right','right','right']" data-hoffset="['120','120','120','120']"
-                         data-y="['top','top','top','top']" data-voffset="['61','61','61','61']"
-                         data-width="none"
-                         data-height="none"
-                         data-whitespace="nowrap"
-                         data-transform_idle="o:1;"
-                         data-transform_hover="o:1;rX:0;rY:0;rZ:0;z:0;s:200;e:Linear.easeNone;"
-                         data-style_hover="c:rgba(153, 153, 153, 1.00);bg:rgba(255, 255, 255, 1.00);cursor:pointer;"
-
-                         data-transform_in="y:top;s:800;e:Power3.easeInOut;"
-                         data-transform_out="x:[100%];s:1000;e:Power3.easeInOut;s:1000;e:Power3.easeInOut;"
-                         data-mask_out="x:inherit;y:inherit;"
-                         data-start="bytrigger"
-                         data-splitin="none"
-                         data-splitout="none"
-                         data-actions='[{"event":"click","action":"jumptoslide","slide":"rs-228","delay":""},{"event":"click","action":"simulateclick","layer":"slide-30-layer-7","delay":"0"}]'
-                         data-basealign="slide"
-                         data-responsive_offset="off"
-                         data-responsive="off"
-                         data-startslide="0"
-                         data-endslide="3"
-                         data-end="bytrigger"
-                         data-lasttriggerstate="keep"
-                         style="z-index: 8; white-space: nowrap;"><a href="#app-screenshots" class="page-scroll">SCREENSHOTS</a>
-                    </div>
-
-                    <!-- LAYER NR. 5 -->
-                    <div class="tp-caption WebProduct-Menuitem   tp-static-layer"
-                         id="slide-30-layer-5"
-                         data-x="['right','right','right','right']" data-hoffset="['120','120','120','120']"
-                         data-y="['top','top','top','top']" data-voffset="['92','92','92','92']"
-                         data-width="none"
-                         data-height="none"
-                         data-whitespace="nowrap"
-                         data-transform_idle="o:1;"
-                         data-transform_hover="o:1;rX:0;rY:0;rZ:0;z:0;s:200;e:Linear.easeNone;"
-                         data-style_hover="c:rgba(153, 153, 153, 1.00);bg:rgba(255, 255, 255, 1.00);cursor:pointer;"
-
-                         data-transform_in="y:top;s:800;e:Power3.easeInOut;"
-                         data-transform_out="x:[100%];s:1000;e:Power3.easeInOut;s:1000;e:Power3.easeInOut;"
-                         data-mask_out="x:inherit;y:inherit;"
-                         data-start="bytrigger"
-                         data-splitin="none"
-                         data-splitout="none"
-                         data-actions='[{"event":"click","action":"jumptoslide","slide":"rs-229","delay":""},{"event":"click","action":"simulateclick","layer":"slide-30-layer-7","delay":"0"}]'
-                         data-basealign="slide"
-                         data-responsive_offset="off"
-                         data-responsive="off"
-                         data-startslide="0"
-                         data-endslide="3"
-                         data-end="bytrigger"
-                         data-lasttriggerstate="keep"
-                         style="z-index: 9; white-space: nowrap;"><a href="#pricing-table" class="page-scroll">PRICING</a>
-                    </div>
-
-                    <!-- LAYER NR. 6 -->
-                    <div class="tp-caption WebProduct-Menuitem   tp-static-layer"
-                         id="slide-30-layer-6"
-                         data-x="['right','right','right','right']" data-hoffset="['120','120','120','120']"
-                         data-y="['top','top','top','top']" data-voffset="['123','123','123','123']"
-                         data-width="none"
-                         data-height="none"
-                         data-whitespace="nowrap"
-                         data-transform_idle="o:1;"
-                         data-transform_hover="o:1;rX:0;rY:0;rZ:0;z:0;s:200;e:Linear.easeNone;"
-                         data-style_hover="c:rgba(153, 153, 153, 1.00);bg:rgba(255, 255, 255, 1.00);cursor:pointer;"
-
-                         data-transform_in="y:top;s:800;e:Power3.easeInOut;"
-                         data-transform_out="x:[100%];s:1000;e:Power3.easeInOut;s:1000;e:Power3.easeInOut;"
-                         data-mask_out="x:inherit;y:inherit;"
-                         data-start="bytrigger"
-                         data-splitin="none"
-                         data-splitout="none"
-                         data-actions='[{"event":"click","action":"jumptoslide","slide":"rs-230","delay":"0"},{"event":"click","action":"simulateclick","layer":"slide-30-layer-7","delay":"0"}]'
-                         data-basealign="slide"
-                         data-responsive_offset="off"
-                         data-responsive="off"
-                         data-startslide="0"
-                         data-endslide="3"
-                         data-end="bytrigger"
-                         data-lasttriggerstate="keep"
-                         style="z-index: 10; white-space: nowrap;"><a href="#team-members" class="page-scroll">TEAMS</a>
-                    </div>
-
-                    <!-- LAYER NR. 7 -->
-                    <div class="tp-caption rev-burger revb-white  tp-static-layer"
-                         id="slide-30-layer-7"
-                         data-x="['right','right','right','right']" data-hoffset="['45','30','30','30']"
-                         data-y="['top','top','top','top']" data-voffset="['30','30','30','30']"
-                         data-width="60"
-                         data-height="60"
-                         data-whitespace="nowrap"
-                         data-transform_idle="o:1;"
-                         data-style_hover="cursor:pointer;"
-
-                         data-transform_in="s:300;e:Power2.easeInOut;"
-                         data-transform_out="s:300;s:300;"
-                         data-start="500"
-                         data-splitin="none"
-                         data-splitout="none"
-                         data-actions='[{"event":"click","action":"toggleclass","layer":"slide-30-layer-7","delay":"0","classname":"open"},{"event":"click","action":"togglelayer","layerstatus":"hidden","layer":"slide-30-layer-3","delay":""},{"event":"click","action":"togglelayer","layerstatus":"hidden","layer":"slide-30-layer-4","delay":""},{"event":"click","action":"togglelayer","layerstatus":"hidden","layer":"slide-30-layer-5","delay":""},{"event":"click","action":"togglelayer","layerstatus":"hidden","layer":"slide-30-layer-6","delay":""}]'
-                         data-basealign="slide"
-                         data-responsive_offset="off"
-                         data-responsive="off"
-                         data-startslide="0"
-                         data-endslide="3"
-
-                         style="z-index: 11; min-width: 60px; max-width: 60px; max-width: 60px; max-width: 60px; white-space: nowrap; font-size: px; line-height: px; font-weight: 100;padding:22px 0px 0px 14px;border-color:rgba(255, 255, 255, 0.20);border-style:solid;border-width:1px;border-radius:50% 50% 50% 50%;box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;">
-                        <span></span>
-                        <span></span>
-                        <span></span>
-                    </div>
-          </div>
-                <div class="tp-bannertimer tp-bottom" style="visibility: hidden !important;"></div>
-      </div>
+                
         </div><!-- END REVOLUTION SLIDER -->
     </section> <!-- /#banner -->
     <!--/ END BANNER -->
@@ -638,7 +442,7 @@
     </section> <!-- /#new-feature -->
     <!--/ END NEW FEATURE -->
 
-    <!-- START @FEATURES -->
+    <!-- START @FEATURES --><!-- /#features -->
     <section id="features">
         <div class="container">
             <div class="section-header section-border wow zoomIn">
@@ -658,7 +462,7 @@
                     <div class="feature-item media wow slideInLeft">
                         <div class="media-body">
                             <h4 class="media-heading">EYFS, COEL &amp; Monastery frameworks</h4>
-                            Blankon easy to use and re-developed because Blankon developed using SASS & Compass, there are variables, mixins, operations and functions of CSS.
+                            Easy to use and re-developed because iGuardian developed using SASS & Compass, there are variables, mixins, operations and functions of CSS.
                         </div>
                         <div class="media-right">
                             <i class="icon-diamond icons feature-icon"></i>
@@ -676,7 +480,7 @@
                     <div class="feature-item media wow slideInLeft">
                         <div class="media-body">
                             <h4 class="media-heading">Complete risk assessments</h4>
-                            Blankon has a fully responsive layout. It fits perfectly on various displays and resolutions from regular desktop screens to tablets and mobile devices.
+                            Has a fully responsive layout. It fits perfectly on various displays and resolutions from regular desktop screens to tablets and mobile devices.
                         </div>
                         <div class="media-right">
                             <i class="icon-screen-desktop icons feature-icon"></i>
@@ -685,7 +489,7 @@
                     <div class="feature-item media wow slideInLeft">
                         <div class="media-body">
                             <h4 class="media-heading">Track and monitor child progress</h4>
-                            All design code Blankon have been tested valid HTML5 and CSS3 code, thus later providing a powerful quality code for your website.
+                            All design code has been tested valid HTML5 and CSS3 code, thus later providing a powerful quality code for your website.
                         </div>
                         <div class="media-right">
                             <i class="icon-check icons feature-icon"></i>
@@ -704,7 +508,7 @@
                         </div>
                         <div class="media-body">
                             <h4 class="media-heading">Record daily diaries</h4>
-                            Blankon versions all within bundle, available 8 versions Static HTML, AngularJS and More. All packages that will help you in your awesome project.
+                            All versions all within bundle, available 8 versions Static HTML, AngularJS and More. All packages that will help you in your awesome project.
                         </div>
                     </div>
                     <div class="feature-item media wow slideInRight">
@@ -722,7 +526,7 @@
                         </div>
                         <div class="media-body">
                             <h4 class="media-heading">Action plans</h4>
-                            Blankon includes custom plugins, forms, validations, datatables, notifications, maps and much more plugins powered by JQuery and the best star on Github.
+                            Includes custom plugins, forms, validations, datatables, notifications, maps and much more plugins powered by JQuery and the best star on Github.
                         </div>
                     </div>
                     <div class="feature-item media wow slideInRight">
@@ -740,7 +544,7 @@
                         </div>
                         <div class="media-body">
                             <h4 class="media-heading">Safeguarding &amp; GDPR compliant</h4>
-                            Blankon documentation summarized well and clearly. Documentation about base style, javascript plugins, license resource, color schemes and many more.
+                            Documentation summarized well and clearly. Documentation about base style, javascript plugins, license resource, color schemes and many more.
                         </div>
                     </div>
                 </div>
@@ -764,12 +568,12 @@
                         </div>
                         <div class="media-body">
                             <h4 class="media-heading">Customiseable dashboard</h4>
-                            Blankon easy to use and re-developed because Blankon developed using SASS & Compass, there are variables, mixins, operations and functions of CSS.
+                            Easy to use and re-developed because it's developed using SASS & Compass, there are variables, mixins, operations and functions of CSS.
                         </div>
                     </div>
                     <div class="feature-item media">
                         <div class="media-left">
-                            <i class="icon-emoticon-smile icons feature-icon"></i>
+                            <i class="icon-screen-desktop icons feature-icon"></i>
                         </div>
                         <div class="media-body">
                             <h4 class="media-heading">Upload and send photos and videos</h4>
@@ -782,7 +586,7 @@
                         </div>
                         <div class="media-body">
                             <h4 class="media-heading">Instant notifications</h4>
-                            Blankon has a fully responsive layout. It fits perfectly on various displays and resolutions from regular desktop screens to tablets and mobile devices.
+                            Has a fully responsive layout. It fits perfectly on various displays and resolutions from regular desktop screens to tablets and mobile devices.
                         </div>
                     </div>
                     <div class="feature-item media">
@@ -791,7 +595,7 @@
                         </div>
                         <div class="media-body">
                             <h4 class="media-heading">Valid HTML5 & CSS3</h4>
-                            All design code Blankon have been tested valid HTML5 and CSS3 code, thus later providing a powerful quality code for your website.
+                            All design code has been tested valid HTML5 and CSS3 code, thus later providing a powerful quality code for your website.
                         </div>
                     </div>
                     <div class="feature-item media">
@@ -809,7 +613,7 @@
                         </div>
                         <div class="media-body">
                             <h4 class="media-heading">Enable / Disable access</h4>
-                            Blankon includes custom plugins, forms, validations, datatables, notifications, maps and much more plugins powered by JQuery and the best star on Github.
+                            Includes custom plugins, forms, validations, datatables, notifications, maps and much more plugins powered by JQuery and the best star on Github.
                         </div>
                     </div>
                     <div class="feature-item media">
@@ -827,24 +631,21 @@
                         </div>
                         <div class="media-body">
                             <h4 class="media-heading">Create and send invoices</h4>
-                            Blankon documentation summarized well and clearly. Documentation about base style, javascript plugins, license resource, color schemes and many more.
+                            Documentation summarized well and clearly. Documentation about base style, javascript plugins, license resource, color schemes and many more.
                         </div>
-                        <div class="media-body">
-                            <h4 class="media-heading">E-Signatures</h4>
-                            Blankon documentation summarized well and clearly. Documentation about base style, javascript plugins, license resource, color schemes and many more.
-                        </div>
+                        
                     </div>
                 </div>
             </div>
         </div>
-    </section> <!-- /#features -->
+    </section> 
     <!--/ END FEATURES -->
 
     <!-- START @APP SCREENSHOTS -->
     <section id="app-screenshots" class="hidden-sm hidden-xs">
         <div class="container">
             <div class="section-header section-border wow zoomIn">
-                <h1 class="text-title text-center text-thin">Blankon App Screenshots</h1>
+                <h1 class="text-title text-center text-thin">iGuardian App Screenshots</h1>
             </div>
             <div class="row">
                 <div class="col-md-12">
