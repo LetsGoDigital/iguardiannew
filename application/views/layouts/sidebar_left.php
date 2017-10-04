@@ -57,6 +57,20 @@
             </li>
             <!--/ End navigation - New Record -->
         <?php } ?>
+            
+        <?php if(is_allowed('createnotification')) { ?>
+            <!-- Start navigation - Create Notification -->
+            <li class="<?php if (isset($active_create_notification)){ echo $active_create_notification;} ?>">
+                <a href="<?php echo base_url('notification') ?>">
+                    <span class="icon"><i class="fa fa-forumbee"></i></span>
+                    <span class="text">Create Notification</span>
+                    <?php if (isset($active_create_notification)){ ?>
+                        <span class="selected"></span>
+                    <?php } ?>
+                </a>
+            </li>
+            <!--/ End navigation - Create Notification -->
+        <?php } ?>
 
     </ul><!-- /.sidebar-menu -->
     <!--/ End left navigation - menu -->

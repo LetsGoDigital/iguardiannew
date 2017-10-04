@@ -6,4 +6,5 @@ $config['page_access'] = array(
     'dashboard' => array(2,3,4),
     'newstaff' => array(2),
     'newchild' => array(2),
+    'createnotification' => array(2)
 );
