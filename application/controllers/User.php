@@ -79,12 +79,14 @@ class User extends CI_Controller {
                     'email' => $this->input->post('email'),
                     'password' => md5($this->input->post('password'))
                 );
-                $user = $this->User_model->get_single_user($where, "id,email,user_type_id");
+                $user = $this->User_model->get_single_user($where, "id,email,user_type_id,firstname,lastname");
                 if ($user) {
                     $session_data = array(
                         'id' => $user->id,
                         'email' => $user->email,
-                        'user_type_id' => $user->user_type_id
+                        'user_type_id' => $user->user_type_id,
+                        'firstname' => $user->firstname,
+                        'lastname' => $user->lastname
                     );
 
                     $this->session->set_userdata('logged_in', $session_data);

@@ -154,7 +154,7 @@ START @BODY
     <!--/ END PAGE CONTENT -->
 
     <!-- START @SIDEBAR RIGHT -->
-    <?php $this->load->view('layouts/sidebar_right'); ?>
+    <?php //$this->load->view('layouts/sidebar_right'); ?>
     <!--/ END SIDEBAR RIGHT -->
 
 </section><!-- /#wrapper -->
