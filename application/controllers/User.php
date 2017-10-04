@@ -15,10 +15,10 @@ class User extends CI_Controller {
 
     public function dashboard() {
         $this->load->helper("user_helper");
-        check_login();
+        $current_user = check_login();
         $data = array(
             // Set title page
-            'title' => 'DASHBOARD',
+            'title' => 'Dashboard',
             // Set CSS plugins
             'list_css_plugin' => array(
                 'dropzone/downloads/css/dropzone.css',
@@ -49,6 +49,9 @@ class User extends CI_Controller {
     }
 
     public function login() {
+        $data = array();
+        $data['title'] = "Login";
+        
         $this->load->helper('form');
         $this->load->library('form_validation');
         if ($this->session->flashdata('error')) {
@@ -60,7 +63,6 @@ class User extends CI_Controller {
             redirect("/user/dashboard");
         }
         if (!$this->input->post()) {
-            $data = array();
             $data['content'] = $this->load->view("login", $data, true);
             $this->load->view("layouts/main_unauthenticated", $data);
         } else {
@@ -77,11 +79,12 @@ class User extends CI_Controller {
                     'email' => $this->input->post('email'),
                     'password' => md5($this->input->post('password'))
                 );
-                $user = $this->User_model->get_single_user($where, "id,email");
+                $user = $this->User_model->get_single_user($where, "id,email,user_type_id");
                 if ($user) {
                     $session_data = array(
-                        'id' => $result->id,
-                        'email' => $result->email,
+                        'id' => $user->id,
+                        'email' => $user->email,
+                        'user_type_id' => $user->user_type_id
                     );
 
                     $this->session->set_userdata('logged_in', $session_data);
@@ -108,7 +111,7 @@ class User extends CI_Controller {
     
     public function logout(){
         $this->session->sess_destroy();
-        redirect("home");
+        redirect("user/login");
     }
 
 }

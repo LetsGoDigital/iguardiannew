@@ -1,6 +1,4 @@
 <!-- START @SIGN WRAPPER -->
-<body class="page-sound page-backstretch">
-
 <div id="sign-wrapper">
 
     <!-- Brand -->
@@ -59,4 +57,3 @@
 
 </div><!-- /#sign-wrapper -->
 <!--/ END SIGN WRAPPER -->
-</body>

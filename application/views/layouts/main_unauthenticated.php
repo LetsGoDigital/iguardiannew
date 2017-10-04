@@ -11,7 +11,7 @@
     <meta name="description" content="Blankon is a theme fullpack admin template powered by Twitter bootstrap 3 front-end framework. Included are multiple example pages, elements styles, and javascript widgets to get your project started.">
     <meta name="keywords" content="admin, admin template, bootstrap3, clean, fontawesome4, good documentation, lightweight admin, responsive dashboard, webapp">
     <meta name="author" content="Djava UI">
-    <title><?php if(isset($title)){echo $title;} ?> | BLANKON - Fullpack Admin Theme</title>
+    <title><?php if(isset($title)){echo $title;} ?> | iGuardian</title>
     <!--/ END META SECTION -->
 
     <!-- START @FAVICONS -->
@@ -80,7 +80,7 @@ START @BODY
 |=========================================================================================================================|
 
 -->
-<body>
+<body class='page-backstretch'>
 
 <!--[if lt IE 9]>
 <p class="upgrade-browser">Upps!! You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/" target="_blank">upgrade your browser</a> to improve your experience.</p>
