@@ -3,6 +3,9 @@
 function check_login() {
     $CI = & get_instance();
     $method = $CI->router->fetch_method();
+    if($method=="index"){
+        $method = $CI->router->fetch_class();
+    }
     $page_access = $CI->config->item('page_access');
     if (!isset($CI->session->userdata['logged_in'])) {
         redirect("user/login");

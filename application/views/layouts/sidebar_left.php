@@ -20,7 +20,7 @@
         <?php if(is_allowed('dashboard')){ ?>
             <!-- Start navigation - dashboard -->
             <li class="<?php if (isset($active_dashboard)){ echo $active_dashboard;} ?>">
-                <a href="<?php echo site_url($this->config->item('link_url').'/dashboard'); ?>">
+                <a href="<?php echo base_url('dashboard'); ?>">
                     <span class="icon"><i class="fa fa-home"></i></span>
                     <span class="text">Dashboard</span>
                     <?php if (isset($active_dashboard)){ ?>
@@ -30,45 +30,161 @@
             </li>
             <!--/ End navigation - dashboard -->
         <?php } ?>
+            
+        <!-- Start System Settings Heading -->
+        <li class="sidebar-category">
+            <span>SYSTEM SETTINGS</span>
+            <span class="pull-right"><i class="fa fa-gear"></i></span>
+        </li>
+        <!--/ End System Settings Heading -->
+        
+        <?php if(is_allowed('company')){ ?>
+            <!-- Start navigation - dashboard -->
+            <li class="<?php if (isset($active_company)){ echo $active_company;} ?>">
+                <a href="<?php echo base_url('system/company'); ?>">
+                    <span class="icon"><i class="fa fa-building-o"></i></span>
+                    <span class="text">Manage Company</span>
+                    <?php if (isset($active_company)){ ?>
+                        <span class="selected"></span>
+                    <?php } ?>
+                </a>
+            </li>
+            <!--/ End navigation - dashboard -->
+        <?php } ?>
         
         
-        <?php if(is_allowed('newstaff,newchild')) { ?>
-            <!-- Start navigation - New Record -->
-            <li class="submenu <?php if (isset($active_new_record)){ echo $active_new_record;} ?>">
+        <?php if(is_allowed('adduser,users,userroles')) { ?>
+            <!-- Start navigation - User Management -->
+            <li class="submenu <?php if (isset($active_manage_users)){ echo $active_manage_users;} ?>">
                 <a href="javascript:void(0);">
-                    <span class="icon"><i class="fa fa-globe"></i></span>
-                    <span class="text">New Record</span>
+                    <span class="icon"><i class="fa fa-user"></i></span>
+                    <span class="text">Manage Users</span>
                     <span class="arrow"></span>
-                    <?php if (isset($active_new_record)){ ?>
+                    <?php if (isset($active_manage_users)){ ?>
                         <span class="selected"></span>
                     <?php } ?>
                 </a>
                 <ul>
-                    <?php if(is_allowed('newstaff')){ ?>
-                        <li class="<?php if (isset($active_new_staff)){ echo $active_new_staff;} ?>"><a href="<?php echo base_url('manage/newstaff'); ?>">Staff</a></li>
+                    <?php if(is_allowed('adduser')){ ?>
+                        <li class="<?php if (isset($active_adduser)){ echo $active_adduser;} ?>"><a href="<?php echo base_url('system/adduser'); ?>">Add User</a></li>
                     <?php
                     }
-                    if(is_allowed('newchild')){
+                    if(is_allowed('users')){
                     ?>
-                        <li class="<?php if (isset($active_new_child)){ echo $active_new_child;} ?>"><a href="<?php echo base_url('manage/newchild'); ?>">Child</a></li>
+                        <li class="<?php if (isset($active_users)){ echo $active_users;} ?>"><a href="<?php echo base_url('system/users'); ?>">View/Edit Users</a></li>
+                    <?php
+                    }
+                    if(is_allowed('userroles')){
+                    ?>
+                        <li class="<?php if (isset($active_userroles)){ echo $active_userroles;} ?>"><a href="<?php echo base_url('system/userroles'); ?>">User Roles</a></li>
                     <?php } ?>
                 </ul>
             </li>
-            <!--/ End navigation - New Record -->
+            <!--/ End navigation - User Management -->
         <?php } ?>
             
-        <?php if(is_allowed('createnotification')) { ?>
-            <!-- Start navigation - Create Notification -->
-            <li class="<?php if (isset($active_create_notification)){ echo $active_create_notification;} ?>">
-                <a href="<?php echo base_url('notification') ?>">
-                    <span class="icon"><i class="fa fa-forumbee"></i></span>
-                    <span class="text">Create Notification</span>
-                    <?php if (isset($active_create_notification)){ ?>
+        <?php if(is_allowed('stripe')){ ?>
+            <!-- Start navigation - Stripe -->
+            <li class="<?php if (isset($active_stripe)){ echo $active_stripe;} ?>">
+                <a href="<?php echo base_url('system/stripe'); ?>">
+                    <span class="icon"><i class="fa fa-money"></i></span>
+                    <span class="text">Edit Stripe Account</span>
+                    <?php if (isset($active_stripe)){ ?>
                         <span class="selected"></span>
                     <?php } ?>
                 </a>
             </li>
-            <!--/ End navigation - Create Notification -->
+            <!--/ End navigation - Discounts -->
+        <?php } ?>
+            
+        <?php if(is_allowed('discounts')){ ?>
+            <!-- Start navigation - Stripe -->
+            <li class="<?php if (isset($active_discounts)){ echo $active_discounts;} ?>">
+                <a href="<?php echo base_url('system/discounts'); ?>">
+                    <span class="icon"><i class="fa fa-chain"></i></span>
+                    <span class="text">Referral Discounts</span>
+                    <?php if (isset($active_discounts)){ ?>
+                        <span class="selected"></span>
+                    <?php } ?>
+                </a>
+            </li>
+            <!--/ End navigation - Discounts -->
+        <?php } ?>
+            
+        <?php if(is_allowed('editwebsite')){ ?>
+            <!-- Start navigation - Website -->
+            <li class="<?php if (isset($active_editwebsite)){ echo $active_editwebsite;} ?>">
+                <a href="<?php echo base_url('system/editwebsite'); ?>">
+                    <span class="icon"><i class="fa fa-navicon"></i></span>
+                    <span class="text">View/Edit Website</span>
+                    <?php if (isset($active_editwebsite)){ ?>
+                        <span class="selected"></span>
+                    <?php } ?>
+                </a>
+            </li>
+            <!--/ End navigation - Website -->
+        <?php } ?>
+            
+        
+            
+        <!-- Start Manage Organizations Heading -->
+        <li class="sidebar-category">
+            <span>MANAGE ORGANIZATIONS</span>
+            <span class="pull-right"><i class="fa fa-building"></i></span>
+        </li>
+        <!--/ End Manage Organizations  Heading -->
+        
+        <?php if(is_allowed('addorg,orgs')) { ?>
+            <!-- Start navigation - Organization Management -->
+            <li class="submenu <?php if (isset($active_org_management)){ echo $active_org_management;} ?>">
+                <a href="javascript:void(0);">
+                    <span class="icon"><i class="fa fa-building"></i></span>
+                    <span class="text">Manage Organizations</span>
+                    <span class="arrow"></span>
+                    <?php if (isset($active_org_management)){ ?>
+                        <span class="selected"></span>
+                    <?php } ?>
+                </a>
+                <ul>
+                    <?php if(is_allowed('addorg')){ ?>
+                        <li class="<?php if (isset($active_addorg)){ echo $active_addorg;} ?>"><a href="<?php echo base_url('system/addorg'); ?>">Add Organization</a></li>
+                    <?php
+                    }
+                    if(is_allowed('orgs')){
+                    ?>
+                        <li class="<?php if (isset($active_orgs)){ echo $active_orgs;} ?>"><a href="<?php echo base_url('system/orgs'); ?>">View/Edit Organizations</a></li>
+                    <?php } ?>
+                </ul>
+            </li>
+            <!--/ End navigation - Organization Management -->
+        <?php } ?>
+            
+        <?php if(is_allowed('helpdesk')){ ?>
+            <!-- Start navigation - helpdesk -->
+            <li class="<?php if (isset($active_helpdesk)){ echo $active_helpdesk;} ?>">
+                <a href="<?php echo base_url('system/helpdesk'); ?>">
+                    <span class="icon"><i class="fa fa-money"></i></span>
+                    <span class="text">Organizations Helpdesk</span>
+                    <?php if (isset($active_helpdesk)){ ?>
+                        <span class="selected"></span>
+                    <?php } ?>
+                </a>
+            </li>
+            <!--/ End navigation - helpdesk -->
+        <?php } ?>
+            
+        <?php if(is_allowed('referrals')){ ?>
+            <!-- Start navigation - referrals -->
+            <li class="<?php if (isset($active_referrals)){ echo $active_referrals;} ?>">
+                <a href="<?php echo base_url('system/referrals'); ?>">
+                    <span class="icon"><i class="fa fa-chain"></i></span>
+                    <span class="text">Manage Referrals</span>
+                    <?php if (isset($active_referrals)){ ?>
+                        <span class="selected"></span>
+                    <?php } ?>
+                </a>
+            </li>
+            <!--/ End navigation - referrals -->
         <?php } ?>
 
     </ul><!-- /.sidebar-menu -->
