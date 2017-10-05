@@ -15,11 +15,23 @@
     <!--/ END META SECTION -->
 
     <!-- START @FAVICONS -->
-    <link href="http://themes.djavaui.com/blankon-fullpack-admin-theme/img/ico/html/apple-touch-icon-144x144-precomposed.png" rel="apple-touch-icon-precomposed" sizes="144x144">
-    <link href="http://themes.djavaui.com/blankon-fullpack-admin-theme/img/ico/html/apple-touch-icon-114x114-precomposed.png" rel="apple-touch-icon-precomposed" sizes="114x114">
-    <link href="http://themes.djavaui.com/blankon-fullpack-admin-theme/img/ico/html/apple-touch-icon-72x72-precomposed.png" rel="apple-touch-icon-precomposed" sizes="72x72">
-    <link href="http://themes.djavaui.com/blankon-fullpack-admin-theme/img/ico/html/apple-touch-icon-57x57-precomposed.png" rel="apple-touch-icon-precomposed">
-    <link href="http://themes.djavaui.com/blankon-fullpack-admin-theme/img/ico/html/apple-touch-icon.png" rel="shortcut icon">
+    <link rel="apple-touch-icon" sizes="57x57" href="assets/global/img/favicon/apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="assets/global/img/favicon/apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="assets/global/img/favicon/apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="assets/global/img/favicon/apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="assets/global/img/favicon/apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="assets/global/img/favicon/apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="assets/global/img/favicon/apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="assets/global/img/favicon/apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="assets/global/img/favicon/apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="assets/global/img/favicon/android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="assets/global/img/favicon/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="assets/global/img/favicon/favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="assets/global/img/favicon/favicon-16x16.png">
+<link rel="manifest" href="/manifest.json">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="assets/global/img/favicon/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
     <!--/ END FAVICONS -->
 
     <!-- START @GLOBAL MANDATORY STYLES -->
@@ -196,7 +208,7 @@
                              data-responsive_offset="on"
 
 
-                             style="z-index: 6;"><img src="http://img.djavaui.com/?create=1000x600,ff7700?f=ffffff" alt="..." width="653" height="408" data-ww="['653px','653px','330px','230px']" data-hh="['408px','408px','206px','144px']" data-no-retina>
+                             style="z-index: 6;"><img src="../../front-assets/img/desktop.png" alt="..." width="653" height="408" data-ww="['653px','653px','330px','230px']" data-hh="['408px','408px','206px','144px']" data-no-retina>
                         </div>
 
                         <!-- LAYER NR. 3 -->
@@ -443,7 +455,7 @@ allowing them to interact in a safe and secure environment<br/>
     <!--/ END NEW FEATURE -->
 
     <!-- START @FEATURES --><!-- /#features -->
-    <section id="features">
+    <section id="features" style="padding-top: 150px">
         <div class="container">
             <div class="section-header section-border wow zoomIn">
                 <h1 class="text-title text-center text-thin">iGuardian Key Features</h1>
