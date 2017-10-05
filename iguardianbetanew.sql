@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: localhost
--- Generation Time: Sep 26, 2017 at 09:53 AM
+-- Generation Time: Oct 05, 2017 at 11:19 AM
 -- Server version: 10.1.21-MariaDB
 -- PHP Version: 5.6.30
 
@@ -30,6 +30,8 @@ SET time_zone = "+00:00";
 
 CREATE TABLE `users` (
   `id` int(11) NOT NULL,
+  `firstname` varchar(50) DEFAULT NULL,
+  `lastname` varchar(50) DEFAULT NULL,
   `email` varchar(50) NOT NULL,
   `password` varchar(32) NOT NULL,
   `user_type_id` int(11) NOT NULL,
@@ -40,8 +42,8 @@ CREATE TABLE `users` (
 -- Dumping data for table `users`
 --
 
-INSERT INTO `users` (`id`, `email`, `password`, `user_type_id`, `status`) VALUES
-(1, 'consult@owaisafaq.com', 'e10adc3949ba59abbe56e057f20f883e', 1, 'ACTIVE');
+INSERT INTO `users` (`id`, `firstname`, `lastname`, `email`, `password`, `user_type_id`, `status`) VALUES
+(1, 'Owais', 'Afaq', 'consult@owaisafaq.com', 'e10adc3949ba59abbe56e057f20f883e', 1, 'ACTIVE');
 
 -- --------------------------------------------------------
 
